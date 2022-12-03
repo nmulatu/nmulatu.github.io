@@ -1,0 +1,486 @@
+/*
+Colors
+Primary: Hex - #FDEEDC 
+Secondary Hex - #FFD8A9 
+Third Hex - #F1A661 
+Background Hex - #FFFFFF 
+Text Color Hex - #000000
+
+Typography
+Header 1: Crimson Text BOLD 
+Header 2: Crimson Text Regular
+Body: Quicksand Regular 
+We will identify your weak areas with a mock exam, and provide you personalized tutoring and support to achieve a top score.
+
+/* Reuseable grid */
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 3.5rem;
+}
+
+.grid{
+    display: grid;
+    column-gap: 6.6rem;
+    row-gap: 9.8rem;
+    
+}
+.grid-2-columns{
+    grid-template-columns: repeat(2, 1fr);;
+}
+.grid-3-columns{
+    grid-template-columns: repeat(3, 1fr);
+}
+/* Reuseable grid */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.3%;
+    overflow-x: hidden;
+}
+
+body {
+    font-weight: 350;
+    color: rgb(0, 0, 0);
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1;
+    overflow-x: hidden;
+
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 0 3.5rem;
+    align-items: center;
+    gap: 8.7rem;
+}
+.main-img{
+    width: 100%;
+    border-radius: 9px;
+}
+
+.primary-heading {
+    font-size: 4.8rem;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+    font-weight: 635;
+    color:black;
+    letter-spacing: -.6px;
+    font-family: 'Crimson Text', serif;
+}
+
+.main-description {
+    font-size: 1.9rem;
+    line-height: 1.8;
+    margin-bottom: 4.6rem;
+    font-weight: 400;
+}
+.main-section {
+    background-color:  #FDEEDC;
+    padding: 8.7rem 0;
+}
+
+.btn,
+.btn:link, .btn:visited {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    font-size: 2.2rem;
+    color:black;
+    padding: 1.4rem 3.5rem;
+    border-radius: 12px;
+    transition: all 300ms;
+    border: none;
+    cursor:pointer;
+}
+
+.btn:hover, .btn:active {
+    background-color:#F1A661;
+}
+.margin-button{
+    display: flex;
+    margin-right: 1.8rem;
+}
+/* Header */
+
+.brand {
+    height: 12rem;
+} 
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:  #FDEEDC ;
+    height: 8.5rem;
+    padding: 2.5rem 2.5rem;
+    position: relative;
+}
+
+/* Header */
+
+/* Nav-bar */
+.main-nav-bar-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: 'Crimson Text', serif;
+    gap: 4.8rem;
+}
+.main-nav-bar-link:link,
+.main-nav-bar-link:visited {
+    display:inline-block ;
+    text-decoration: none;
+    color: black;
+    font-family: 478;
+    font-size: 2.2rem;
+    transition: all 300ms;
+}
+
+.main-nav-bar-link:hover,
+.main-nav-bar-link:active {
+    color:#f67803 
+}
+.margin-right{
+    padding-right: 8.0rem;
+}
+.btn-mobile-nav{
+    border: none;
+    background: none;
+    cursor: pointer;
+    display:none;
+}
+.mobile-nav-icon{
+    height: 4.6rem;
+    width: 4.6rem;
+    color: #333;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+    display: none;
+}
+
+
+
+
+/* Nav-bar */
+
+
+
+/* About Us section */
+.about-us-section{
+    padding: 9.8rem 0;
+    background-color:white;
+}
+
+.image-step{
+    width: 100%;
+    border-radius: 12px;
+}
+.second-heading {
+    font-weight: 635;
+    line-height: 1.05;
+    margin-bottom: 3.2rem;
+    font-size: 4.2rem;
+    line-height: 1.3;
+    margin-bottom: 5.8rem;
+    color:rgb(55, 6, 23); 
+    letter-spacing: -.6px;
+    font-family: 'Crimson Text', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-header, .register-heading{
+    display: flex;
+    font-size: 2.5rem;
+    font-family: 'Crimson Text', serif;
+    font-weight: 437;
+    color:rgb(55, 6, 23); 
+    text-transform: uppercase;
+    margin-bottom: 9.8rem;
+    letter-spacing: 0.83px;
+}
+.sub-header-details{
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: 9.8rem;
+}
+
+.step-number{
+    font-size: 8.2rem;
+    font-weight: 635;
+    color:  grey;
+    margin-bottom: 1rem;
+}
+
+.third-heading {
+    font-weight: 635;
+    color: black;
+    letter-spacing: -.6px;
+    font-size: 3.5rem;
+    line-height: 1.3;
+    margin-bottom: 3.2rem;
+    font-family: 'Crimson Text', serif;
+}
+.description-step{
+    font-size: 2.0rem;
+    line-height: 1.5;
+
+}
+
+.step-box-for-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-step{
+    width: 100%;
+    border-radius: 12px;
+}
+/* About Us section */
+
+
+
+/* Services section */
+.services-section{
+    padding: 9.8rem 0;
+    background-color:white;
+}
+.sat-image{
+    width:100%;
+    background-color: rgb(233, 233, 233);
+}
+
+.service-title{
+    font-size: 2.7rem;
+    color: grey;
+    font-weight: 635;
+    margin-bottom: 3.5rem;
+
+}
+
+.service-attributes{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:2.3rem;
+
+}
+.service-attribute{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1.8rem;
+}
+
+.money-icon, .clock-icon, .calender-icon, .weather-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    color: #F1A661;  
+}
+
+.service{
+    box-shadow: 0 2.7rem 5.4rem rgba(0,0,0,0.078);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 300ms;
+}
+.service-content{
+    padding: 3.5rem 4.5rem 4.5rem 4.5rem;
+    background-color:#FDEEDC;
+}
+.service:hover {
+    transform: translateY(-1.3rem);
+    box-shadow: 0 3.7rem 6.7rem rgba(0,0,0,0.056);
+}
+/* Services section */
+
+/* reviews(home) section */
+.reviews-container {
+    padding: 9.2rem;
+    padding-top: 0rem;
+    padding-bottom: 5.5rem;
+}
+
+.reviews-section{
+    padding: 9.8rem 9.8rem;
+    background-color:rgb(238, 238, 238);
+    margin-bottom: 9.8rem;
+}
+
+.review-img{
+    width: 6.7rem;
+    border-radius: 50%;
+}
+.review-text{
+    font-size: 2.0rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+.review-name{
+    font-size: 1.7rem;
+    color:black
+    
+}
+.sub-header-reviews{
+    display: flex;
+    font-size: 2.5rem;
+    font-family: 'Crimson Text', serif;
+    font-weight: 437;
+    color:rgb(55, 6, 23); 
+    text-transform: uppercase;
+    margin-bottom: 5.8rem;
+    letter-spacing: 0.83px;
+    align-items: center;
+    justify-content: center;
+}
+/* reviews(home) section */
+
+
+
+/* Register section */
+.register-section{
+    padding: 9.8rem 0;
+}
+
+.register{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /*background-color: #F1A661 ; */
+    box-shadow: 0 2.7rem 5.4rem rgba(0,0,0,0.078);
+    border-radius: 12px;
+    background-image: linear-gradient(to right,hwb(29 38% 5%) ,hsl(29, 87%, 56%));
+    overflow: hidden;
+}
+
+.register-image-box{
+    background-image: linear-gradient(to right,rgba(241, 167, 97, 0.40) ,hsla(29, 87%, 56%, 0.40)), url("../img/register-section.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+.register-text{
+    margin-bottom: 4.6rem;
+    font-weight: 550;
+}
+
+.register-text-box{
+    padding: 4.6rem 6.1rem 6.1rem 6.1rem;
+    color:black;
+    font-size: 1.6rem;
+    line-height: 1.6;
+}
+
+.register .second-heading{
+    margin-bottom: 2.8rem;
+    color: white;
+    font-size: 4.8rem;
+}
+.sub-register-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.2rem;
+    color: white;
+    font-weight: 550;
+    margin-bottom: 2rem;
+}
+.register-form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3.4rem;
+    row-gap: 2.7rem;
+
+}
+.register-form label{
+    display: block;
+    font-size: 1.8rem;
+    font-weight: 535;
+    margin-bottom: 1.5rem;
+}
+.register-form input, 
+.register-form select{
+    width: 80%;
+    padding: 1.5rem;
+    background-color: #fdf2e9;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-family: inherit;
+    border: none;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+.register-form input::placeholder {
+    color: #aaa
+}
+
+.form-btn{
+    background-color: rgb(55, 6, 23);
+    color: white;
+    align-self: end;
+    padding: 1.3rem;
+}
+.form-btn:hover{
+    background-color: white;
+    color:black;
+}
+
+*:focus {
+    outline: none;
+    /*outline: 5px dotted lightgreen;
+    outline-offset: 6px;*/
+    box-shadow: 0 0 0 .4rem rgba(3, 255, 167, 0.5);
+}
+
+.register *:focus {
+    outline: none;
+    box-shadow: 0 0 0 .4rem rgba(87, 49, 2, 0.673);
+}
+/* Register section */
+
+
+/* Footer section */
+
+.footer{
+    padding: 9.8rem 0;
+    background-color: #FDEEDC;
+}
+.footer-head{
+    font-size: 2.2rem;
+    font-weight: 535;
+    margin-bottom: 4.2rem;    font-family: 'Crimson Text', serif;
+        font-family: 'Crimson Text', serif;
+
+}
+
+.brand-logo{
+    display: block;
+    margin-bottom: 3.5rem;
+    line-height: 1.0;
+    font-weight: 435;
+}
+.copyright{
+    font-size:1.4rem;
+    color:gray
+    line-height 1.8;
+}
+
+.contacts{
+    font-size: 2.0rem;
+    font-style: normal;
+    line-height: 1.8;
+    font-family: 'Crimson Text', serif;
+}
+
+.phone, .email{
+    text-decoration: none;
+    color: black;
+    font-family: 'Crimson Text', serif;
+}
+/* Footer section */
+
